@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Crown (Australia) — Catalog</title>
+    <meta name="description"
+        content="Natural household products: refill culture, plastic-smart, non-toxic. Catalog of eco-friendly products by Crown (Australia)." />
+    <meta property="og:title" content="Product Catalog — Crown (Australia)">
+    <meta property="og:description"
+        content="Explore Crown (Australia)'s product catalog — eco skincare, bulk foods, and home essentials crafted for a cleaner planet.">
+    <meta property="og:image" content="./public/og/catalog.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/catalog.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <main class="page page--catalog">
+
+
+        <section class="catalog">
+            <div class="container catalog__wrap">
+                <aside class="filters" id="filters" aria-open="false">
+                    <button id="filters-toggle" class="filters__toggle" aria-expanded="false"
+                        aria-controls="filters-panel">
+                        Filters
+                    </button>
+                    <div id="filters-backdrop" hidden></div>
+                    <div class="filters__panel" id="filters-panel">
+                        <button id="filters-close" aria-label="Close" class="filters__close">✕</button>
+
+                        <h3 class="filters__title">Filters</h3>
+
+                        <div class="filters__scroll">
+
+                            <div class="filter">
+                                <h3 class="filter__title">Availability</h3>
+                                <label class="chk"><input type="checkbox" id="f-instock" checked> <span>In
+                                        stock</span></label>
+                                <label class="chk"><input type="checkbox" id="f-out" disabled> <span>Out of
+                                        stock</span></label>
+                            </div>
+
+                            <div class="filter">
+                                <h3 class="filter__title">Price</h3>
+                                <div class="price-range">
+                                    <div class="price-range__row">
+                                        <input type="number" id="price-min" class="price-input" placeholder="£ 0"
+                                            min="0" step="0.01">
+                                        <span class="dash">—</span>
+                                        <input type="number" id="price-max" class="price-input" placeholder="£ 50"
+                                            min="0" step="0.01">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="filter">
+                                <h3 class="filter__title">Product type</h3>
+                                <div class="chips chips--stretch" id="type-chips"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="filters__ft">
+                            <button class="btn" id="price-apply">Apply</button>
+                            <button class="btn btn--ghost" id="reset-filters">Reset</button>
+                        </div>
+
+                    </div>
+                </aside>
+
+
+                <div class="catalog__main">
+                    <div class="catalog__bar">
+                        <div class="results" id="results-count">0 products</div>
+                        <div class="search"><input id="q" class="search__input" type="search"
+                                placeholder="Search products..."></div>
+                        <div class="sort">
+                            <label for="sort">Sort by:</label>
+                            <select id="sort" class="sort__select">
+                                <option value="featured">Featured</option>
+                                <option value="price-asc">Price: Low → High</option>
+                                <option value="price-desc">Price: High → Low</option>
+                                <option value="title-asc">Title: A → Z</option>
+                                <option value="title-desc">Title: Z → A</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="grid" class="grid"></div>
+                    <nav class="pager" id="pager"></nav>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+
+
+    <script defer src="./js/dynamic-loader.js"></script>
+    <script defer src="./js/cart.js"></script>
+    <script defer src="./js/catalog.js"></script>
+    <script defer src="./js/product-modal.js"></script>
+    <script defer src="./js/nav.js"></script>
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/cookies.js"></script>
+
+</body>
+
+</html>

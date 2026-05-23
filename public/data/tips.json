@@ -1,0 +1,82 @@
+[
+    {
+      "id": "cleanser",
+      "cat": "skincare",
+      "title": "Simple cleanser routine (AM/PM)",
+      "img": "./public/skin/cleanser/Cleanser2.webp",
+      "lead": "Fast morning & gentle evening sequence to keep your barrier happy.",
+      "steps": [
+        "AM: Rinse → Cleanser (30–60s) → Toner Mist → Serum → Cream → SPF.",
+        "PM: If you wore SPF/makeup — double cleanse.",
+        "Finish: Toner → Serum → Cream."
+      ],
+      "checklist": "AM: Cleanser → Toner → Serum → Cream → SPF\nPM: (Double) Cleanser → Toner → Serum → Cream",
+      "link": "./catalog.html#skincare",
+      "read": "2–3 min read"
+    },
+    {
+      "id": "mask",
+      "cat": "skincare",
+      "title": "Face mask: 2× per week",
+      "img": "./public/skin/faceMask/faceMask2.webp",
+      "lead": "Use after cleansing for 10–15 min. Rinse, then toner → serum → cream.",
+      "steps": [
+        "Apply on dry skin for 10–15 min.",
+        "Rinse lukewarm, then Toner → Serum → Cream.",
+        "Sensitive? Start with 1×/week and spot-test first."
+      ],
+      "checklist": "Cleanse → Mask 10–15 min → Rinse → Toner → Serum → Cream",
+      "link": "./catalog.html#skincare",
+      "read": "2 min read"
+    },
+    {
+      "id": "almonds-storage",
+      "cat": "bulk",
+      "title": "Almonds: how to store fresh",
+      "img": "./public/bulk/almounds/almounds2.webp",
+      "lead": "Keep oils from going rancid: airtight, cool, and away from light.",
+      "steps": [
+        "Move almonds to airtight glass jars and label the date.",
+        "Store in a cool, dark cupboard for short term (up to 1–2 months).",
+        "For longer freshness: fridge up to 6 months or freezer up to 12 months.",
+        "Avoid heat, sunlight, and moisture; keep lids tightly closed."
+      ],
+      "checklist": "Jar (airtight) → Label date → Cool/dark → For long term: fridge/freezer",
+      "link": "./catalog.html#bulk",
+      "read": "1 min read"
+    },
+    {
+      "id": "multipurpose-spray",
+      "cat": "home",
+      "title": "Multipurpose spray — quick clean routine",
+      "img": "./public/home/spray/spray2.webp",
+      "lead": "Daily wipe-downs for kitchens and bathrooms without harsh chemicals.",
+      "steps": [
+        "Spray from 15–20 cm onto the surface.",
+        "Wait 30–60 s to let the formula work.",
+        "Wipe with a clean cloth; for stubborn spots repeat once.",
+        "Do not use on unsealed wood or natural stone without spot test."
+      ],
+      "checklist": "Spray 15–20 cm → Wait 30–60 s → Wipe clean → Repeat for spots",
+      "link": "./catalog.html#home",
+      "read": "1–2 min read"
+    },
+    
+    {
+      "id": "natural-sponge-care",
+      "cat": "home",
+      "title": "Natural sponge/loofah — care & hygiene",
+      "img": "./public/home/sponge/sponge2.webp",
+      "lead": "Keep it fresh and longer-lasting with quick rinses and drying.",
+      "steps": [
+        "Rinse thoroughly after use to remove residue.",
+        "Squeeze out excess water; hang to air-dry completely.",
+        "Weekly: soak 5–10 min in warm water with a bit of vinegar, then rinse.",
+        "Replace every 4–6 weeks or sooner if it smells or breaks apart."
+      ],
+      "checklist": "Rinse → Squeeze → Air-dry → Weekly vinegar soak → Replace 4–6 wks",
+      "link": "./catalog.html#home",
+      "read": "1 min read"
+    }
+  ]
+  

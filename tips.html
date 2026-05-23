@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Crown (Australia) — Tips & Guides</title>
+    <meta name="description"
+        content="Practical eco tips from Crown (Australia): skincare routines, bulk food storage, home care, and zero-waste ideas." />
+
+<meta property="og:image" content="./public/og/tipsGuides.webp">
+<meta property="og:title" content="Crown (Australia) — Tips & Guides">
+<meta property="og:description" content="Eco advice for skincare, home care, and zero-waste living.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg">
+    <link rel="alternate icon" type="image/webp" href="./public/favicon-32.webp" sizes="32x32">
+    <link rel="alternate icon" type="image/webp" href="./public/favicon-192.webp" sizes="192x192">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Crown (Australia) — Tips & Guides">
+    <meta property="og:description" content="Quick, practical eco advice: skincare, bulk foods, home care.">
+    <meta property="og:image" content="./public/og/tips-1200x630.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="theme-color" content="#0f3d2e" />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="stylesheet" href="./css/tips.css" />
+</head>
+
+<body>
+    <header id="site-header"></header>
+
+    <section class="tips-hero">
+        <div class="halo"></div>
+        <div class="container">
+            <h1 class="tips-title">Tips & Guides</h1>
+            <p class="tips-lead">Quick, practical advice for skincare routines, bulk food storage, and home care. Simple
+                steps → real results.</p>
+            <div class="toolbar">
+                <form class="tips-search" id="tips-search" role="search">
+                    <input type="search" id="tips-q" placeholder="Search tips (e.g. cleanser routine, nuts storage)"
+                        aria-label="Search tips" />
+                    <button type="submit">Search</button>
+                </form>
+                <div class="chips" id="tips-chips">
+                    <button class="chip is-active" data-cat="all" type="button">All</button>
+                    <button class="chip" data-cat="skincare" type="button">Skincare</button>
+                    <button class="chip" data-cat="bulk" type="button">Bulk foods</button>
+                    <button class="chip" data-cat="home" type="button">Home goods</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tips-grid" id="tips-grid"></section>
+
+    <div class="tips-overlay" id="tips-overlay" hidden></div>
+    <aside class="tips-modal" id="tips-modal" aria-modal="true" role="dialog" aria-labelledby="tm-title" hidden>
+        <div class="tm-hd">
+            <div class="tm-title" id="tm-title">Tip</div>
+            <button class="tm-close" id="tm-close" aria-label="Close">✕</button>
+        </div>
+        <div class="tm-body">
+            <div class="tm-hero"><img id="tm-img" alt=""></div>
+            <div class="tm-content">
+                <div class="tm-eyebrow" id="tm-cat"></div>
+                <p class="tm-lead" id="tm-lead"></p>
+                <ol class="tm-steps" id="tm-steps"></ol>
+                <div class="tm-block" id="tm-block" hidden></div>
+                <div class="tm-cta">
+                    <button class="btn--primary" id="tm-copy" type="button">Copy checklist</button>
+                    <a class="btn--ghost" id="tm-link" href="./catalog.html" target="_self" rel="noopener">Open catalog</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer id="site-footer"></footer>
+    <script defer src="./js/dynamic-loader.js"></script>
+    <script defer src="./js/cookies.js"></script>
+    <script defer src="./js/nav.js"></script>
+    <script defer src="./js/cart.js"></script>
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/tips.js"></script>
+</body>
+
+</html>

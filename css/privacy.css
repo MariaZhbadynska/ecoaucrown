@@ -1,0 +1,84 @@
+
+:root {
+    --green-dark: #003f2f;
+    --green: #0a6b4d;
+    --cream: #faf6ec;
+    --gold: #c3a878;
+    --transition: 0.35s ease;
+}
+
+body {
+    background: var(--cream);
+    font-family: "Inter", sans-serif;
+    color: var(--green-dark);
+    line-height: 1.6;
+}
+
+.section__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.8s ease;
+}
+
+.mat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 40px 10px;
+}
+.materials{
+    padding: 0 20px ;
+}
+.mat {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition), box-shadow var(--transition);
+    animation: fadeUp 0.75s ease;
+}
+
+.mat:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+}
+
+.mat__title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--green);
+}
+
+.mat__text {
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

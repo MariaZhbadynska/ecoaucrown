@@ -1,0 +1,144 @@
+{
+    "currency": "£",
+    "products": [
+      {
+        "id": "foam-cleanser",
+        "title": "Foam Cleanser",
+        "price": 21.45,
+        "productType": "skincare",
+        "availability": "in",
+        "tags": ["bestseller"],
+        "images": ["./public/skin/cleanser/Cleanser1.webp", "./public/skin/cleanser/Cleanser2.webp"]
+      },
+      {
+        "id": "face-mask",
+        "title": "Face Mask — Aloe & Cucumber",
+        "price": 12.10,
+        "productType": "skincare",
+        "availability": "in",
+        "tags": [],
+        "images": ["./public/skin/faceMask/faceMask1.webp","./public/skin/faceMask/faceMask2.webp"]
+      },
+      {
+        "id": "gel-cleanser",
+        "title": "Gel Cleanser",
+        "price": 14.90,
+        "productType": "skincare",
+        "availability": "in",
+        "tags": [],
+        "images": ["./public/skin/gelCleanser/gelCleanser1.webp", "./public/skin/gelCleanser/gelCleanser2.webp"]
+      },
+      {
+        "id": "skin-serum",
+        "title": "Skin Serum",
+        "price": 14.90,
+        "productType": "skincare",
+        "availability": "in",
+        "tags": ["bestseller"],
+        "images": ["./public/skin/serum/serum1.webp", "./public/skin/serum/serum2.webp"]
+      },
+      {
+        "id": "toner-mist",
+        "title": "Toner Mist",
+        "price": 18.99,
+        "productType": "skincare",
+        "availability": "in",
+        "tags": [],
+        "images": ["./public/skin/toner/toner1.webp","./public/skin/toner/toner3.webp"]
+      },
+      {
+        "id": "skin-cream",
+        "title": "Face Cream",
+        "price": 26.99,
+        "productType": "skincare",
+        "availability": "in",
+        "tags": [],
+        "images": ["./public/skin/skinCream/skinCream1.webp","./public/skin/skinCream/skinCream2.webp"]
+      },
+  
+      {
+        "id": "home-brush",
+        "title": "Natural Bristle Brush",
+        "price": 9.99,
+        "productType": "home",
+        "availability": "in",
+        "tags": ["eco"],
+        "images": ["./public/home/brush/brush1.webp","./public/home/brush/brush2.webp"]
+      },
+      {
+        "id": "home-candle",
+        "title": "Soy Wax Candle — Vanilla",
+        "price": 14.50,
+        "productType": "home",
+        "availability": "in",
+        "tags": ["aroma"],
+        "images":["./public/home/candle/soyCandle1.webp","./public/home/candle/soyCandle2.webp"]
+      },
+      {
+        "id": "home-sponge",
+        "title": "Organic Bath Sponge",
+        "price": 6.50,
+        "productType": "home",
+        "availability": "in",
+        "tags": [],
+        "images":["./public/home/sponge/sponge1.webp","./public/home/sponge/sponge2.webp"]
+      },
+      {
+        "id": "home-spray",
+        "title": "Natural Room Spray — Lavender",
+        "price": 11.99,
+        "productType": "home",
+        "availability": "in",
+        "tags": ["aroma"],
+        "images":["./public/home/spray/spray1.webp","./public/home/spray/spray2.webp"]
+      },
+  
+   
+      {
+        "id": "almound-bulk",
+        "title": "Organic Almonds",
+        "price": 4.80,
+        "productType": "bulk",
+        "availability": "in",
+        "tags": [],
+        "images":["./public/bulk/almounds/almounds1.webp","./public/bulk/almounds/almounds2.webp"]
+      },
+      {
+        "id": "banana-bulk",
+        "title": "Dried Banana Slices",
+        "price": 3.60,
+        "productType": "bulk",
+        "availability": "in",
+        "tags": [],
+        "images":["./public/bulk/banana/banana1.webp","./public/bulk/banana/banana2.webp"]
+      },
+      {
+        "id": "mango-bulk",
+        "title": "Dried Mango",
+        "price": 5.10,
+        "productType": "bulk",
+        "availability": "in",
+        "tags": [],
+        "images":["./public/bulk/mango/mango1.webp","./public/bulk/mango/mango2.webp"]
+      },
+      {
+        "id": "oats-bulk",
+        "title": "Whole Grain Oats",
+        "price": 2.40,
+        "productType": "bulk",
+        "availability": "in",
+        "tags": [],
+        "images":["./public/bulk/oats/oats1.webp","./public/bulk/oats/oats2.webp"]
+      },
+      {
+        "id": "pineapple-bulk",
+        "title": "Dried Pineapple",
+        "price": 5.60,
+        "productType": "bulk",
+        "availability": "in",
+        "tags": [],
+        "images":["./public/bulk/pineapple/pineapple1.webp","./public/bulk/pineapple/pineapple2.webp"]
+      }
+    ]
+  }
+  

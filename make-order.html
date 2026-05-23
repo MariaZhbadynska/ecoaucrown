@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make an order — Crown Australia</title>
+  <meta name="description"
+    content="EcoAuCrown by Crown (Australia): premium eco-friendly skincare and organic bulk products. Refill culture, zero-waste packaging, cruelty-free." />
+  <meta property="og:title" content="Make an Order — Crown Australia">
+  <meta property="og:description"
+    content="Place your order with Crown (Australia): eco skincare, bulk foods, and home goods. Sustainable and inspired by nature.">
+  <meta property="og:image" content="./public/og/home.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+
+  <meta name="theme-color" content="#0f3d2e" />
+  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg">
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/cart.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/make-order.css" />
+</head>
+
+<body>
+  <div id="site-header"></div>
+  <div class="make-order_container">
+    <h1>Make an order</h1>
+    <div class="order-summary" id="orderSummary"></div>
+    <form id="orderForm"> <label for="name">Name</label> <input type="text" id="name" required> <label
+        for="email">Email</label> <input type="email" id="email" required> <label for="phone">Phone</label> <input
+        type="tel" id="phone" required> <label for="address">Address</label> <input type="text" id="address" required>
+      <label for="comment">Comment</label> <textarea id="comment"></textarea> <button type="submit"
+        class="btn-submit">Confirm order</button>
+    </form>
+    <div class="thank-you" id="thankYouMsg">
+      <div class="checkmark"> <svg viewBox="0 0 52 52">
+          <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+          <path class="checkmark__check" fill="none" d="M14 27l7 7 16-16" />
+        </svg> </div>
+      <div class="thank-you-text"> Thank you for your order! 💚<br> We will contact you shortly. </div>
+    </div>
+  </div>
+  <div id="site-footer"></div>
+  <script defer src="./js/dynamic-loader.js"></script>
+  <script defer src="./js/cart.js"></script>
+  <script defer src="./js/nav.js"></script>
+  <script defer src="./js/script.js"></script>
+  <script defer src="./js/cookies.js"></script>
+  <script defer src="./js/make-order.js"></script>
+</body>
+
+</html>

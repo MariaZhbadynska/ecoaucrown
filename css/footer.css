@@ -1,0 +1,101 @@
+.footer-luxe {
+    background: radial-gradient(70% 90% at 50% 100%, #0f3d2e, #08231a 60%);
+    color: #e8f3ef;
+    padding: 72px 0 36px;
+    border-top: 1px solid rgba(255, 255, 255, .06)
+}
+
+
+.f-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap
+}
+
+.f-logo {
+    width: 62px;
+    filter: drop-shadow(0 0 8px rgba(213, 183, 118, .3))
+}
+
+.f-brand {
+    max-width: 300px;
+    font-size: .97rem;
+    line-height: 1.55;
+    opacity: .88
+}
+
+.f-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.f-nav a {
+    font-size: .98rem;
+    color: #e8f3ef;
+    opacity: .75;
+    transition: .25s
+}
+
+.f-nav a:hover {
+    opacity: 1;
+    color: #d7c59b;
+    transform: translateX(4px)
+}
+
+.f-sub {
+    display: flex;
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 999px;
+    padding: 4px;
+    backdrop-filter: blur(6px)
+}
+
+.f-sub input {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    padding: 0 14px;
+    width: 180px
+}
+
+.f-sub input::placeholder {
+    color: rgba(255, 255, 255, .6)
+}
+
+.f-sub button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    background: radial-gradient(circle at 30% 30%, #f9e4a4, #bfae82);
+    color: #08231a;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+    transition: .2s
+}
+
+.f-sub button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05)
+}
+
+.f-bottom {
+    margin-top: 32px;
+    border-top: 1px solid rgba(255, 255, 255, .10);
+    padding-top: 18px;
+    text-align: center;
+    font-size: .88rem;
+    opacity: .7
+}
+
+.f-bottom a {
+    margin: 0 8px;
+    color: #d7c59b
+}
